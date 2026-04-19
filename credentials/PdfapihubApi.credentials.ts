@@ -11,8 +11,8 @@ export class PdfapihubApi implements ICredentialType {
 	displayName = 'PDF API Hub API';
 	documentationUrl = 'https://pdfapihub.com/docs';
 	icon: Icon = {
-		light: 'file:../icons/icon.svg',
-		dark: 'file:../icons/icon.svg'
+		light: 'file:../icons/light.svg',
+		dark: 'file:../icons/dark.svg'
 	};
 	properties: INodeProperties[] = [
 		{

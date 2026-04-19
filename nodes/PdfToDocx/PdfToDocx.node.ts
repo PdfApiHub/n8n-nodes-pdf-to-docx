@@ -11,7 +11,7 @@ export class PdfToDocx implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'PDF to Word',
 		name: 'pdfToDocx',
-		icon: { light: 'file:../../icons/icon.svg', dark: 'file:../../icons/icon.svg' },
+		icon: { light: 'file:../../icons/light.svg', dark: 'file:../../icons/dark.svg' },
 		group: ['transform'],
 		version: 1,
 		description: 'Convert PDF files to editable Word (DOCX) documents using PDF API Hub',
