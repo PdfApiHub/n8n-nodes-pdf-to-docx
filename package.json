@@ -1,0 +1,52 @@
+{
+	"name": "n8n-nodes-pdf-to-docx",
+	"version": "1.0.0",
+	"description": "Convert PDF files to editable Word (DOCX) documents using PDF API Hub",
+	"license": "MIT",
+	"homepage": "https://pdfapihub.com",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"pdf-to-docx",
+		"pdf-to-word",
+		"convert",
+		"pdfapihub"
+	],
+	"author": {
+		"name": "Rishabh Dugar",
+		"email": "rishabh.dugar.com@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PdfApiHub/n8n-nodes-pdf-to-docx.git"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/PdfapihubApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/PdfToDocx/PdfToDocx.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "*",
+		"@types/node": "^22.0.0",
+		"eslint": "9.32.0",
+		"typescript": "5.9.2"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}

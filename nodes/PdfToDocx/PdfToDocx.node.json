@@ -1,0 +1,15 @@
+{
+	"node": "n8n-nodes-base.pdfToDocx",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Utility"
+	],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://pdfapihub.com/docs"
+			}
+		]
+	}
+}
